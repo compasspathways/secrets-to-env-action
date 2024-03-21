@@ -24,7 +24,7 @@ inputs:
     required: false
     description: 'If used with starts_with, only convert the non-matching part of the secret name'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
 branding:
   icon: book-open
